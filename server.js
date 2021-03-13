@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === 'development') {
 app.use('/api/v1/bootcamps', bootcamps);
 
 //Error Handler
-app.use(errorHandler);
+app.use(errorHandlery);
 
 const PORT = process.env.PORT || 5000;
 
